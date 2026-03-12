@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Justin Stansell | Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+      color: #222;
+      background: #ffffff;
+    }
+    h1, h2 {
+      color: #1f4e79;
+    }
+    .card {
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 24px;
+      margin-top: 24px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      margin-top: 16px;
+    }
+    .links a {
+      display: inline-block;
+      margin-right: 12px;
+      margin-top: 10px;
+      text-decoration: none;
+      padding: 10px 14px;
+      border: 1px solid #1f4e79;
+      border-radius: 8px;
+      color: #1f4e79;
+    }
+    .links a:hover {
+      background: #f3f7fb;
+    }
+  </style>
+</head>
+<body>
+  <h1>Justin Stansell</h1>
+  <p>Healthcare-focused aspiring BI / Data Analyst with experience in Excel, Power Query, SQL Server, and Power BI.</p>
+
+  <div class="card">
+    <h2>Insurance Claim Denial Analysis</h2>
+    <p><strong>Business question:</strong> Where are claim denials coming from, what are the top drivers by payer and reason, and how are denial rates trending over time?</p>
+    <p><strong>Tools used:</strong> Excel, Power Query, SQL Server, Power BI</p>
+
+    <ul>
+      <li>Overall denial rate: 10.06%</li>
+      <li>Top payer by denied volume: Medicaid</li>
+      <li>Top denial reason: Duplicate Claim</li>
+    </ul>
+
+    <img src="projects/revenue-cycle-denial-analysis/assets/dashboard.png" alt="Revenue Cycle Dashboard" />
+
+    <div class="links">
+      <a href="projects/revenue-cycle-denial-analysis/files/RevenueCycle_Presentation.pdf" target="_blank">Presentation PDF</a>
+      <a href="projects/revenue-cycle-denial-analysis/files/README.md" target="_blank">README</a>
+      <a href="projects/revenue-cycle-denial-analysis/files/create_view_claim_denial_base.sql" target="_blank">SQL View</a>
+    </div>
+  </div>
+</body>
+</html>
